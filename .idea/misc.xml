@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2703125" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/drawable/ic_baseline_add_circle_50.xml" value="0.2703125" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/accidents_recycler_view_item.xml" value="0.4" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_add_accident.xml" value="0.23233695652173914" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_add_car.xml" value="0.4" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_add_trip.xml" value="0.4" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_add_user.xml" value="0.1" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_add_worker.xml" value="0.24139492753623187" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_authority.xml" value="0.23233695652173914" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_cars_list.xml" value="0.1" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_edit_accident.xml" value="0.23233695652173914" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_edit_car.xml" value="0.264" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_edit_trip.xml" value="0.23233695652173914" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_edit_user.xml" value="0.264" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_edit_worker.xml" value="0.264" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_main.xml" value="0.19067028985507245" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_user_card.xml" value="0.264" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_users_list.xml" value="0.24010416666666667" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/activity_workers_list.xml" value="0.24139492753623187" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/cars_reccycler_view_item.xml" value="0.4" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/cars_recycler_view_item.xml" value="0.536" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/trips_recycler_view_item.xml" value="0.6" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/users_recycler_view_item.xml" value="0.4" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/layout/workers_recycler_view_item.xml" value="0.4" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/menu/edit_trip_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/ProjectsAndroid/NormCarshDB/app/src/main/res/menu/user_card_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

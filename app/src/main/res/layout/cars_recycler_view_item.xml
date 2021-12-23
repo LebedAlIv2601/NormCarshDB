@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/colorAccent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/brandCarsRecyclerViewTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volvo"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/carNumberCarsRecyclerViewTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="p234po177"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/brandCarsRecyclerViewTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/benzineCountCarsRecyclerViewTextView"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="40"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/brandCarsRecyclerViewTextView" />
+
+        <TextView
+            android:id="@+id/benzineLabelCarsRecyclerViewTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="л"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            app:layout_constraintStart_toEndOf="@+id/benzineCountCarsRecyclerViewTextView"
+            app:layout_constraintTop_toTopOf="@+id/benzineCountCarsRecyclerViewTextView" />
+
+        <TextView
+            android:id="@+id/priceCarsRecyclerViewTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:text="17.56"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            app:layout_constraintStart_toEndOf="@+id/benzineLabelCarsRecyclerViewTextView"
+            app:layout_constraintTop_toTopOf="@+id/benzineCountCarsRecyclerViewTextView" />
+
+        <TextView
+            android:id="@+id/priceLabelCarsRecyclerViewTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="р/мин"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            app:layout_constraintStart_toEndOf="@+id/priceCarsRecyclerViewTextView"
+            app:layout_constraintTop_toTopOf="@+id/benzineCountCarsRecyclerViewTextView" />
+
+        <TextView
+            android:id="@+id/workerCarsRecyclerViewTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Родюков А.А."
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/benzineLabelCarsRecyclerViewTextView"
+            app:layout_constraintTop_toBottomOf="@+id/workerLabelCarsRecyclerViewTextView" />
+
+        <TextView
+            android:id="@+id/workerLabelCarsRecyclerViewTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ответственный: "
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/benzineCountCarsRecyclerViewTextView" />
+
+        <ImageView
+            android:id="@+id/deleteCarsRecyclerViewImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_baseline_delete_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/editCarsRecyclerViewImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_baseline_edit_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/deleteCarsRecyclerViewImageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

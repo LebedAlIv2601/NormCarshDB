@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NormCarshDB</string>
+    <string-array name="carBrands">
+        <item>Skoda</item>
+        <item>Kia</item>
+        <item>Volvo</item>
+        <item>Volkswagen</item>
+        <item>Toyota</item>
+        <item>Nissan</item>
+        <item>Mercedes</item>
+        <item>BMW</item>
+    </string-array>
+    <string-array name="severities">
+        <item>Лёгкое</item>
+        <item>Среднее</item>
+        <item>Тяжёлое</item>
+    </string-array>
+    <string-array name="guilts">
+        <item>Не виноват</item>
+        <item>Виноват</item>
+    </string-array>
+    <string-array name="repairs">
+        <item>Ремонт не нужен</item>
+        <item>Ремонт нужен</item>
+    </string-array>
+</resources>

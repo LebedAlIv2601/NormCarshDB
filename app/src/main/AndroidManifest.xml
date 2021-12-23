@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.normcarshdb">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AuthorityActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Авторизация"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditAccidentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Изменить ДТП"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserCardActivity" />
+        </activity>
+        <activity
+            android:name=".AddAccidentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Добавить ДТП"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserCardActivity" />
+        </activity>
+        <activity
+            android:name=".EditTripActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Изменить поездку"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserCardActivity" />
+        </activity>
+        <activity
+            android:name=".AddTripActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Добавить поездку"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserCardActivity" />
+        </activity>
+        <activity
+            android:name=".EditCarActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Изменить машину"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CarsListActivity" />
+        </activity>
+        <activity
+            android:name=".AddCarActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Добавить машину"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CarsListActivity" />
+        </activity>
+        <activity
+            android:name=".EditWorkerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Изменить работника"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorkersListActivity" />
+        </activity>
+        <activity
+            android:name=".AddWorkerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Добавить работника"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorkersListActivity" />
+        </activity>
+        <activity
+            android:name=".WorkersListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Работники"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".CarsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Машины"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditUserActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Редактировать пользователя"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserCardActivity" />
+        </activity>
+        <activity
+            android:name=".UserCardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Карта пользователя"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UsersListActivity" />
+        </activity>
+        <activity
+            android:name=".AddUserActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Добавить пользователя"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UsersListActivity" />
+        </activity>
+        <activity
+            android:name=".UsersListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Пользователи"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AuthorityActivity" />
+
+            <!-- android:theme="@style/Theme.AppCompat.Light.NoActionBar"> -->
+
+        </activity>
+    </application>
+
+</manifest>

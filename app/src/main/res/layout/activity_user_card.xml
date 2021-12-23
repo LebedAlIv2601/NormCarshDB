@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        tools:context=".UserCardActivity">
+
+        <TextView
+            android:id="@+id/nameLabelUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Имя"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Васильев А.В."
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nameLabelUserCardTextView" />
+
+        <TextView
+            android:id="@+id/phoneLabelUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Номер телефона"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/licenseLabelUserCardTextView"
+            app:layout_constraintStart_toStartOf="@+id/nameLabelUserCardTextView"
+            app:layout_constraintTop_toBottomOf="@+id/nameLabelUserCardTextView" />
+
+        <TextView
+            android:id="@+id/phoneUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="89265215871"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/nameUserCardTextView"
+            app:layout_constraintTop_toTopOf="@+id/phoneLabelUserCardTextView" />
+
+        <TextView
+            android:id="@+id/licenseLabelUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Водительские права"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/finesLabelUserCardTextView"
+            app:layout_constraintStart_toStartOf="@+id/phoneLabelUserCardTextView"
+            app:layout_constraintTop_toBottomOf="@+id/nameLabelUserCardTextView" />
+
+        <TextView
+            android:id="@+id/licenseUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2411678453"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/phoneUserCardTextView"
+            app:layout_constraintTop_toTopOf="@+id/licenseLabelUserCardTextView" />
+
+        <TextView
+            android:id="@+id/finesLabelUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Штрафы"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/tripsLabelUserCardTextView"
+            app:layout_constraintStart_toStartOf="@+id/licenseLabelUserCardTextView"
+            app:layout_constraintTop_toBottomOf="@+id/licenseLabelUserCardTextView" />
+
+        <TextView
+            android:id="@+id/finesUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/licenseUserCardTextView"
+            app:layout_constraintTop_toTopOf="@+id/finesLabelUserCardTextView" />
+
+        <TextView
+            android:id="@+id/tripsLabelUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Поездки:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/tripsRecyclerView"
+            app:layout_constraintStart_toStartOf="@+id/finesLabelUserCardTextView"
+            app:layout_constraintTop_toBottomOf="@+id/finesLabelUserCardTextView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tripsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            app:layout_constraintBottom_toTopOf="@+id/accidentsLabelUserCardTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tripsLabelUserCardTextView" />
+
+        <TextView
+            android:id="@+id/accidentsLabelUserCardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ДТП:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/accidentsRecyclerView"
+            app:layout_constraintStart_toStartOf="@+id/tripsLabelUserCardTextView"
+            app:layout_constraintTop_toBottomOf="@+id/tripsRecyclerView" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/accidentsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accidentsLabelUserCardTextView" />
+
+        <Button
+            android:id="@+id/buttonAddTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:background="@color/colorPrimary"
+            android:padding="4dp"
+            android:text="Добавить поездку"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tripsLabelUserCardTextView" />
+
+        <Button
+            android:id="@+id/buttonAddAccident"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:background="@color/colorPrimary"
+            android:padding="4dp"
+            android:text="Добавить ДТП"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/accidentsLabelUserCardTextView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
